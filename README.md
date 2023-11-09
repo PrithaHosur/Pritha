@@ -1,2 +1,2 @@
-# Pritha
+# StockPredWebsite
 Websites
