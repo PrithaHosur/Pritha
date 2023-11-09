@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(213, 216, 216, 0.404);
+    overflow: hidden;
+}
+
+  
+h1
+{
+    display: block;
+    color: red;
+    text-align: center;
+    position: relative;
+    padding-left: 10%;
+}
+
+div
+{
+    position: relative;
+    width:100%;
+    padding: inherit;
+    margin: inherit;
+    color: brown;
+}
+
+.container {
+    height: 100vh; /* Set the container's height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+
+#bodypane {
+    display: block;
+    position: relative;
+    width: 100%;    
+}
+
+#headerpane {
+    top: 0;
+    height: 100px;
+    width: 100%;  
+    image-rendering: crisp-edges;
+    padding: 0%;
+}
+
+#footerpane {
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding: 0%;
+}
+
+
+#predOutcome
+{
+    display: block;
+}
+

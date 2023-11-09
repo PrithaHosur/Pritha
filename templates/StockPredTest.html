@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='spTest.css') }}" /> 
+      <title>Link CSS to HTML</title>
+</head>
+
+
+<body>
+<div class="container">
+
+    <div class="section" id="headerpane" style=" display:block; background-image: url(static/FMCGbg1.jpg);">
+    </div>
+
+
+    <div class="section" id="bodypane" style="padding: 1%; margin: 1%;">
+        <h1> Welcome to FMCG Company Stock Prediction Software</h1>
+
+        <div> FMCG
+        <select id="FMCGCompanies"></select>
+        </div>
+
+        <div> Prediction Period
+        <select name="Prediction Period" id="Prediction Period"> </select>
+        </div>
+        
+        <div id= "button1" style="display: block;">
+        <button id="Get Prediction">Get Prediction </button>
+        </div>
+    </div>    
+    <br/><br/>
+
+    <div id="predOutcome"></div>
+
+    <div class="section" id="footerPane" style="display: block; background-image: url(static/lowerbg.jpg);"></div>
+
+</div>
+
+<script type="text/javascript" src="{{ url_for('static', filename='stockPredTestjs.js') }}"> </script>
+
+</body>
+</html>
